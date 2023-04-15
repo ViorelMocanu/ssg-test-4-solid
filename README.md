@@ -2,7 +2,7 @@
 
 A test to see which of the Static Site Generators I should use for my personal website and blog.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/ecd91f8c-d29b-4d5d-b5c7-77c4107edb75/deploy-status)](https://app.netlify.com/sites/flourishing-maamoul-8b9654/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/ecd91f8c-d29b-4d5d-b5c7-77c4107edb75/deploy-status)](https://app.netlify.com/sites/ssg-test-4-solid/deploys)
 
 # SolidStart
 
