@@ -1,3 +1,7 @@
+# ssg-test-4-solid
+
+A test to see which of the Static Site Generators I should use for my personal website and blog.
+
 # SolidStart
 
 Everything you need to build a Solid project, powered by [`solid-start`](https://start.solidjs.com);
