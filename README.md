@@ -2,6 +2,8 @@
 
 A test to see which of the Static Site Generators I should use for my personal website and blog.
 
+Tutorial here: <https://start.solidjs.com/getting-started/project-setup> and here: <https://tahazsh.com/blog/building-a-solidjs-app-from-scratch> and here: <https://www.youtube.com/watch?v=B6ZWvYGCHU0>
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ecd91f8c-d29b-4d5d-b5c7-77c4107edb75/deploy-status)](https://app.netlify.com/sites/ssg-test-4-solid/deploys)
 
 # SolidStart
