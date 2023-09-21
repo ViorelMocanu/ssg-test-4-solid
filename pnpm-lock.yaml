@@ -1,5 +1,9 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
 dependencies:
   '@solidjs/meta':
     specifier: ^0.28.2
@@ -9,7 +13,7 @@ dependencies:
     version: 0.8.2(solid-js@1.7.2)
   '@urql/core':
     specifier: ^4.0.4
-    version: 4.0.4(graphql@16.6.0)
+    version: 4.0.4(graphql@16.8.1)
   cookie:
     specifier: ^0.5.0
     version: 0.5.0
@@ -17,11 +21,11 @@ dependencies:
     specifier: ^1.0.7
     version: 1.0.7
   graphql:
-    specifier: ^16.6.0
-    version: 16.6.0
+    specifier: ^16.8.1
+    version: 16.8.1
   graphql-tag:
     specifier: ^2.12.6
-    version: 2.12.6(graphql@16.6.0)
+    version: 2.12.6(graphql@16.8.1)
   solid-js:
     specifier: ^1.7.2
     version: 1.7.2
@@ -54,7 +58,7 @@ devDependencies:
 
 packages:
 
-  /@0no-co/graphql.web@1.0.0(graphql@16.6.0):
+  /@0no-co/graphql.web@1.0.0(graphql@16.8.1):
     resolution: {integrity: sha512-JBq2pWyDchE1vVjj/+c4dzZ8stbpew4RrzpZ3vYdn1WJFGHfYg6YIX1fDdMKtSXJJM9FUlsoDOxemr9WMM2p+A==}
     peerDependencies:
       graphql: ^14.0.0 || ^15.0.0 || ^16.0.0
@@ -62,7 +66,7 @@ packages:
       graphql:
         optional: true
     dependencies:
-      graphql: 16.6.0
+      graphql: 16.8.1
     dev: false
 
   /@ampproject/remapping@2.2.1:
@@ -1722,10 +1726,10 @@ packages:
     dependencies:
       '@types/node': 18.15.11
 
-  /@urql/core@4.0.4(graphql@16.6.0):
+  /@urql/core@4.0.4(graphql@16.8.1):
     resolution: {integrity: sha512-r1rB/VMVpCnfnMTTzCAs+HY+UqOHUgpZ+GimLtU4DCTP3C78DK+m4qr36M7KKleggrKgcpcC1TE8eFEVcKzfSQ==}
     dependencies:
-      '@0no-co/graphql.web': 1.0.0(graphql@16.6.0)
+      '@0no-co/graphql.web': 1.0.0(graphql@16.8.1)
       wonka: 6.3.1
     transitivePeerDependencies:
       - graphql
@@ -2309,18 +2313,18 @@ packages:
   /graceful-fs@4.2.11:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
 
-  /graphql-tag@2.12.6(graphql@16.6.0):
+  /graphql-tag@2.12.6(graphql@16.8.1):
     resolution: {integrity: sha512-FdSNcu2QQcWnM2VNvSCCDCVS5PpPqpzgFT8+GXzqJuoDd0CBncxCY278u4mhRO7tMgo2JjgJA5aZ+nWSQ/Z+xg==}
     engines: {node: '>=10'}
     peerDependencies:
       graphql: ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
     dependencies:
-      graphql: 16.6.0
+      graphql: 16.8.1
       tslib: 2.5.0
     dev: false
 
-  /graphql@16.6.0:
-    resolution: {integrity: sha512-KPIBPDlW7NxrbT/eh4qPXz5FiFdL5UbaA0XUNz2Rp3Z3hqBSkbj0GVjwFDztsWVauZUWsbKHgMg++sk8UX0bkw==}
+  /graphql@16.8.1:
+    resolution: {integrity: sha512-59LZHPdGZVh695Ud9lRzPBVTtlX9ZCV150Er2W43ro37wVof0ctenSaskPPjN7lVTIN8mSZt8PHUNKZuNQUuxw==}
     engines: {node: ^12.22.0 || ^14.16.0 || ^16.0.0 || >=17.0.0}
     dev: false
 
