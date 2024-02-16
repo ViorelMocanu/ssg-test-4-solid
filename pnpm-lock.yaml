@@ -33,8 +33,8 @@ dependencies:
     specifier: ^0.2.26
     version: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.19)(vite@4.5.2)
   undici:
-    specifier: ^5.26.2
-    version: 5.26.2
+    specifier: ^5.28.3
+    version: 5.28.3
 
 devDependencies:
   autoprefixer:
@@ -45,7 +45,7 @@ devDependencies:
     version: 8.4.31
   solid-start-node:
     specifier: ^0.2.19
-    version: 0.2.19(solid-start@0.2.26)(undici@5.26.2)(vite@4.5.2)
+    version: 0.2.19(solid-start@0.2.26)(undici@5.28.3)(vite@4.5.2)
   tailwindcss:
     specifier: ^3.2.4
     version: 3.2.4(postcss@8.4.31)
@@ -1598,6 +1598,14 @@ packages:
     requiresBuild: true
     optional: true
 
+  /@esbuild/win32-x64@0.18.20:
+    resolution: {integrity: sha512-kTdfRcSiDfQca/y9QIkng02avJ+NCaQvrMejlsB3RRv5sE9rRoeBPISaZpKxHELzRxZyLvNts1P27W3wV+8geQ==}
+    engines: {node: '>=12'}
+    cpu: [x64]
+    os: [win32]
+    requiresBuild: true
+    optional: true
+
   /@fastify/busboy@2.0.0:
     resolution: {integrity: sha512-JUFJad5lv7jxj926GPgymrWQxxjPYuJNiNjNMzqT+HiuP6Vl3dk5xzG+8sTX96np0ZAluvaMzPsjhHZ5rNuNQQ==}
     engines: {node: '>=14'}
@@ -2899,7 +2907,7 @@ packages:
       '@babel/types': 7.21.4
       solid-js: 1.7.2
 
-  /solid-start-node@0.2.19(solid-start@0.2.26)(undici@5.26.2)(vite@4.5.2):
+  /solid-start-node@0.2.19(solid-start@0.2.26)(undici@5.28.3)(vite@4.5.2):
     resolution: {integrity: sha512-5Rtlh4PKm6zDuvFoPzf8xEzz5ca35uoyCeHbEqhcVnD9OqqhW8iKevaoNwlJ3Vm9yZHP53SWcS6F3e/KOnvBpA==}
     peerDependencies:
       solid-start: '*'
@@ -2915,7 +2923,7 @@ packages:
       sirv: 2.0.2
       solid-start: 0.2.26(@solidjs/meta@0.28.2)(@solidjs/router@0.8.2)(solid-js@1.7.2)(solid-start-node@0.2.19)(vite@4.5.2)
       terser: 5.16.9
-      undici: 5.26.2
+      undici: 5.28.3
       vite: 4.5.2
     transitivePeerDependencies:
       - supports-color
@@ -2983,9 +2991,9 @@ packages:
       set-cookie-parser: 2.6.0
       sirv: 2.0.2
       solid-js: 1.7.2
-      solid-start-node: 0.2.19(solid-start@0.2.26)(undici@5.26.2)(vite@4.5.2)
+      solid-start-node: 0.2.19(solid-start@0.2.26)(undici@5.28.3)(vite@4.5.2)
       terser: 5.16.9
-      undici: 5.26.2
+      undici: 5.28.3
       vite: 4.5.2
       vite-plugin-inspect: 0.7.21(rollup@3.20.2)(vite@4.5.2)
       vite-plugin-solid: 2.7.0(solid-js@1.7.2)(vite@4.5.2)
@@ -3112,8 +3120,8 @@ packages:
     hasBin: true
     dev: true
 
-  /undici@5.26.2:
-    resolution: {integrity: sha512-a4PDLQgLTPHVzOK+x3F79/M4GtyYPl+aX9AAK7aQxpwxDwCqkeZCScy7Gk5kWT3JtdFq1uhO3uZJdLtHI4dK9A==}
+  /undici@5.28.3:
+    resolution: {integrity: sha512-3ItfzbrhDlINjaP0duwnNsKpDQk3acHI3gVJ1z4fmwMK31k5G9OVIAMLSIaP6w4FaGkaAkN6zaQO9LUvZ1t7VA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.0.0
