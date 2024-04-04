@@ -24,7 +24,7 @@
     "graphql-tag": "^2.12.6",
     "solid-js": "^1.8.15",
     "solid-start": "^0.3.10",
-    "undici": "^6.6.2"
+    "undici": "^6.11.1"
   },
   "engines": {
     "node": ">=16"
